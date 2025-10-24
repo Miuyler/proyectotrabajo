@@ -72,7 +72,7 @@ body {
 .socials {
     display: flex;
 }
-.socials li {
+.socials  {
     margin: 0 10px;
     height: 40px;
     width: 40px;
@@ -80,3 +80,38 @@ body {
     border-radius: 50%;
 }
 
+.socials:hover  {
+    background-color: #db241d;
+}
+
+.socials img {
+    margin: 8px 0 0 10px;
+}   
+
+.menu.navar ul li   {
+    position:relative;
+    float :left;
+}
+
+.menu.navar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color:#ffffff;
+    display:block;
+}
+
+.menu.navar ul li a :hover {
+    color:#db241d;
+}
+
+#menu {
+    display: none
+}
+
+.menu-icono {
+    width: 25px;
+}
+.menu-label {
+    cursor:pointer;
+    display: none;
+}
